@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="horizontal"
+    android:weightSum="5"
+    android:divider="?android:attr/listDivider"
+    android:showDividers="middle"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:padding="12dp"
+        android:orientation="vertical"
+        >
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/main_text_view"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="24sp"/>
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/sub_text_view"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="14sp"/>
+    </LinearLayout>
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchCompat"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:layout_weight="1"
+
+    />
+</LinearLayout> 
